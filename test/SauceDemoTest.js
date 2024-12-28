@@ -2,9 +2,9 @@ const { Builder } = require('selenium-webdriver');
 const { describe, it, before, after } = require('mocha');
 const assert = require('assert');
 
-const LoginPage = require('../LoginPage');
-const DashboardPage = require('../DashboardPage');
-const CartPage = require('../CartPage');
+const LoginPage = require('../components/LoginPage');
+const DashboardPage = require('../components/DashboardPage');
+const CartPage = require('../components/CartPage');
 
 
 describe('SauceDemoTest', function () {
